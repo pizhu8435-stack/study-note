@@ -52,7 +52,19 @@ select * from member where username='kobe'
 
 ## 六、常见利用方式
 
-构造闭合并让条件恒为真：' or 1=1%23     ' or '1'='1
+构造闭合并让条件恒为真：
+
+```sql
+
+' or 1=1%23
+
+```
+
+```sql
+
+' or '1'='1
+
+```
 
 ## SQL 实际拼接效果
 
